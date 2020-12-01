@@ -12,6 +12,6 @@ public class TestController {
 	@ApiOperation(value = "테스트 메소드")
 	@GetMapping(value = "/")
 	public String testMethod() {
-		return "Hello jenkins!";
+		return "Hello jenkins!!";
 	}
 }
